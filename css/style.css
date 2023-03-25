@@ -1,0 +1,191 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header, nav, main, footer {
+	padding: 10px;
+}
+
+header{
+	color: gainsboro;
+	display: flex;
+	position: fixed;
+	width: 100%;
+	background-color:#333;
+	align-items:center;
+	justify-content: center;
+}
+header h1{
+	font-size: 28px;
+	/* padding-left: 3%; */
+	justify-content:first baseline;
+}
+nav{
+	justify-content: space-between;
+	padding-left: 20%;
+}
+
+nav a{
+	float: left;
+    display: block;
+	color: gainsboro;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: helvetica;
+    letter-spacing: 2px;
+}
+nav li, nav ul{
+	list-style: none;
+}
+
+nav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+nav .material-icons {
+	display: none;
+	font-size: 36px;
+	color: blue;
+}
+
+body {
+	min-height: fit-content;
+	background-size: cover;
+	background-attachment:local;
+}
+
+main {
+	padding-top: 120px;
+	padding-bottom: 150px;
+	background-color:#333;
+}
+
+.home{
+	background-size: contain;
+	background-position: 10%;
+	background-image: url('../img/bg.png');
+	background-repeat: no-repeat;
+}
+
+.home h2 {
+	color: gainsboro;
+	font-size: 50px;
+	padding-left: 60%;
+}
+.home p {
+	text-align: center;
+	color: gainsboro;
+	font-size: 20px;
+	padding-left: 60%;
+	padding-bottom: 10%;
+}
+
+.home button {
+	border-radius: 15px;
+	text-align: center;
+	font-weight:100;
+	font-size: 20px;
+	width: 200px;
+	height: 50px; 
+	margin: 0;
+ 	position: absolute;
+  	top: 80%;
+  	left: 87%;
+  	-ms-transform: translate(-90%, -90%);
+  	transform: translate(-90%, -90%);
+	cursor: pointer;
+}
+
+.home button:hover{
+	background-color: #333 ;
+}
+
+h2 {
+	color: gainsboro;
+	text-align: center;
+}
+
+h3 {
+	color:gainsboro;
+}
+
+form {
+	max-width: 600px;
+	margin: auto;
+}
+
+label {
+	color: gainsboro;
+	display: block;
+	margin-top: 20px;
+}
+
+input[type="text"], input[type="email"], select, textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+.gender{
+	margin-right: 10px;
+	display: inline;
+	color: gainsboro;
+}
+
+select{
+	border: 1px solid black;
+}
+
+textarea {
+	resize: vertical;
+	border: 1px solid black;
+}
+
+.file{
+	color: gainsboro;
+	display: inline;
+}
+
+button[type="submit"] {
+	background-color:rgb(111, 191, 164);
+	color:gainsboro;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: gainsboro;
+	color: #333;
+}
+
+.terms_policy{
+	color: gainsboro;
+}
+
+main p{
+	color: gainsboro;
+}
+
+.kontak{
+	text-align: center;
+}
+
+footer {
+	background-color:antiquewhite;
+	color: black;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
